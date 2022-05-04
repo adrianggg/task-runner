@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Radio+Canada&family=Water+Brush&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -6,6 +6,11 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Radio Canada", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navigation {
@@ -24,10 +29,8 @@ body {
   display: inline-block;
 }
 .navigation-list a {
-  text-decoration: none;
   font-size: 20px;
   color: #fff;
-  font-family: "Radio Canada", sans-serif;
 }
 
 .logo-link {
@@ -38,7 +41,41 @@ body {
 }
 
 header {
-  background-color: gray;
+  background: url("https://images.pexels.com/photos/3412313/pexels-photo-3412313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBUSxvR0FBQTtBQUNSO0VBQ0ksc0JBQUE7QUNDSjs7QURDQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0FDRUo7O0FETUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGlCQUFBO0FDSEo7O0FES0E7RUFDSSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtBQ0ZKO0FER0k7RUFDSSxxQkFBQTtBQ0RSO0FER0k7RUFDSSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxXQXBCRztFQXFCSCx1Q0FuQlM7QUNrQmpCOztBRElBO0VBQ0ksV0ExQk87RUEyQlAscUJBQUE7RUFDQSxlQUFBO0VBQ0EsbUNBQUE7QUNESjs7QURPQTtFQUNJLHNCQUFBO0FDSkoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+.btn-header {
+  background-color: gold;
+  display: inline-block;
+  min-width: 280px;
+  margin: 24px auto 0 auto;
+  padding: 30px;
+  color: #fff;
+  font-size: 26px;
+}
+
+.splash-inner {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.splash-inner h1 {
+  font-size: 80px;
+  color: #fff;
+  margin: 20px;
+}
+.splash-inner h2 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBUSw2SEFBQTtBQVFSO0VBQ0ksc0JBQUE7QUNOSjs7QURRQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0VBQ0EsdUNBVGE7QUNJakI7O0FET0E7RUFDSSxxQkFBQTtBQ0pKOztBRE9BO0VBQ0ksWUFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtBQ0pKOztBRE1BO0VBQ0ksYUFBQTtFQUNBLDhCQUFBO0VBQ0EsVUFBQTtFQUNBLFlBQUE7QUNISjtBRElJO0VBQ0kscUJBQUE7QUNGUjtBRElJO0VBQ0ksZUFBQTtFQUNBLFdBaENHO0FDOEJYOztBREtBO0VBQ0ksV0FyQ087RUFzQ1AscUJBQUE7RUFDQSxlQUFBO0VBQ0EsbUNBcENhO0FDa0NqQjs7QURRQTtFQUNJLHlKQUFBO0VBQ0EsYUFBQTtFQUNBLFdBQUE7QUNMSjs7QURRQTtFQUNJLHNCQXJETztFQXNEUCxxQkFBQTtFQUNBLGdCQUFBO0VBQ0Esd0JBQUE7RUFDQSxhQUFBO0VBQ0EsV0F6RE87RUEwRFAsZUFBQTtBQ0xKOztBRFFBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ0xKO0FETUk7RUFDSSxlQUFBO0VBQ0EsV0F2RUc7RUF3RUgsWUFBQTtBQ0pSO0FETUk7RUFDSSxlQUFBO0VBQ0EsV0E1RUc7RUE2RUgsZ0NBekVXO0VBMEVYLGdCQUFBO0VBQ0EsU0FBQTtBQ0pSIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
