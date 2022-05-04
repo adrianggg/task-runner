@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&family=Water+Brush&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  height: 20vh;
+  width: 100%;
+  padding: 3vh 10vw;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  float: right;
+}
+.navigation-list li {
+  display: inline-block;
+}
+.navigation-list a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.logo-link {
+  color: gold;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Water Brush", cursive;
+}
+
+header {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBUSxvR0FBQTtBQUNSO0VBQ0ksc0JBQUE7QUNDSjs7QURDQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0FDRUo7O0FETUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGlCQUFBO0FDSEo7O0FES0E7RUFDSSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtBQ0ZKO0FER0k7RUFDSSxxQkFBQTtBQ0RSO0FER0k7RUFDSSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxXQXBCRztFQXFCSCx1Q0FuQlM7QUNrQmpCOztBRElBO0VBQ0ksV0ExQk87RUEyQlAscUJBQUE7RUFDQSxlQUFBO0VBQ0EsbUNBQUE7QUNESjs7QURPQTtFQUNJLHNCQUFBO0FDSkoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
