@@ -17,12 +17,13 @@ body{
 }
 a{
     text-decoration: none;
+    
 }
 h3{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    padding-top:80px;
+    // padding-top:80px;
     margin: 0;
 }
 p{
@@ -35,23 +36,34 @@ h4{
     font-size: 25px;
     text-align: center;
 }
+section{
+    padding: 60px 0;
+}
 // NAVIGATION
 .navigation {
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     padding: 3vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navigation-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 50%;
     float: right;
     li {
         display: inline-block;
+        // margin:10px;
     }
     a {
         font-size: 20px;
         color: $color-two;
+        &:hover{
+            color:$color-one;
+        }
     }
 }
 .logo-link {
@@ -59,7 +71,7 @@ h4{
     text-decoration: none;
     font-size: 40px;
     font-family: $font-family-two;
-    // font-weight: bold;
+
 }
 
 //HEADER
@@ -78,7 +90,12 @@ header {
     padding: 30px;
     color: $color-two;
     font-size: 26px;
-    
+    font-weight: bold;
+    &:hover{
+        background-color: $color-two;
+        color: $color-one;
+        transition: 1s;
+    }
 }
 .splash-inner{
     text-align: center;
@@ -145,6 +162,7 @@ header {
 }
 //footer
 footer{
+    // padding-top: 40px;
     min-height: 15vh;
     display: flex;
     justify-content: center;
@@ -171,5 +189,82 @@ footer{
         border-radius: 50%;
         padding: 10px;
         text-align: center;
+    }
+}
+
+//media
+
+
+@media (max-width: 1300px) {
+    .splash-inner{
+        h2{
+            font-size: 30px;
+        }
+        h1 {
+            font-size: 60px;
+        }
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .btn-header{
+        min-width:190px;
+        padding: 20px;
+        font-size: 18px;
+    }
+    .navigation-list {
+        width: 60%;
+        li{
+            height: 50%;
+            margin: 2px;
+        }
+        a {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .logo-link {
+        font-size: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .splash-inner{
+        h2{
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .btn-header{
+        min-width:140px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .navigation-list {
+        width: 90%;
+        li{
+            height: 50%;
+            margin: 2px;
+        }
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .logo-link {
+        font-size: 20px;
     }
 }
