@@ -83,3 +83,34 @@ header {
         margin: 0;
     }
 }
+// SERVICES
+
+.services{
+    h3{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        color: gray;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+}
+.box{
+    text-align: center;
+    i{
+        border: 4px solid $color-one;
+        color: $color-one;
+        font-size: 45px;
+        padding: 15px;
+        border-radius: 50%;
+    }
+}
+.box-title{
+    font-size: 25px;
+}
